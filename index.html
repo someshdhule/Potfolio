@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somesh - Potfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(0, 0, 35);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(39, 39, 110);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(76, 118, 226);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(203, 207, 210);
+            height: 1.2px;
+            margin: 20px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 45px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2.2rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+
+            padding: 10px;
+            background: rgb(85, 32, 138);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .Purple {
+            color: rgb(128, 205, 238);
+        }
+
+        .text-gray {
+            color: rgb(214, 228, 241);
+
+        }
+
+        #element {
+            color: rgb(128, 205, 238);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.3rem;
+        }
+
+        .secondSection h2 {
+            font-size: 1.3rem;
+            color: rgb(128, 205, 238);
+        }
+
+        .secondSection .box {
+            background: rgb(203, 207, 210);
+            width: 80vw;
+            height: 2px;
+            margin: 10px 0;
+            display: flex;
+        }
+
+        footer {
+            background-color: rgb(13, 7, 60);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 10px 100px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .fotter-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Somesh's Potfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Certificates</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="Purple">Somesh</span>
+
+                <div>and I am Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> Visit Github </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bc.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I Have done do far</span>
+            <h1>Work Experience</h1>
+            <h2>Fresher</h2>
+
+            <div class="box">
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <H3>Somesh's CyberSecurity Potfolio</H3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="fotter-rights">
+            Copyright &#169; someshpotfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['CyberSecurity Student.', 'Ethical Hacker.', 'Bug Hunter.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
