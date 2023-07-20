@@ -144,6 +144,7 @@
             list-style: none;
         }
 
+
         .footer>div {
             width: 223px;
         }
@@ -153,6 +154,67 @@
             color: grey;
             padding: 12px 0;
         }
+     
+      @media screen and (max-width: 1400px) {
+       
+
+        
+        .secondSection.box{
+            width: 50vw;
+        }
+        nav{
+            flex-direction: column;
+        }
+        .firstSection{
+            flex-direction: column-reverse;
+        }
+        .leftSection{
+            width: 120%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           justify-items: center;
+        }
+        .box{
+            flex-direction: column;
+        }
+        .secondSection.vertical {
+            height: unset;
+        }
+        .vertical-tital, .vartical-desc{
+            left: 45px;
+        }
+        .secondSection .box{
+            width: 50vw;
+        }
+        .rightSection {
+            width: 721px !important;
+            display: flex;
+            justify-content: center;
+
+          
+        }
+        .rightSection img {
+            width: 45%;
+            margin: 45px;
+            margin-bottom: 65px;
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        body{
+            min-width: fit-content;
+        }
+        .secondSection{
+            height: 143vh;
+        }
+    
+      }
     </style>
 </head>
 
@@ -175,9 +237,8 @@
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                Hi, My Name is <span class="Purple">Somesh</span>
-
-                <div>and I am Passionate</div>
+              <div> Hi, My Name is <span class="Purple">Somesh</span></div> 
+                <div>and I am Passionate About</div>
                 <span id="element"></span>
                 <div class="buttons">
                     <button class="btn">Download Resume</button>
