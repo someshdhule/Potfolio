@@ -26,46 +26,45 @@
             align-items: center;
             margin: 20px 11px;
         }
-            
 
-          .right {
-                padding: 1px;
-                color: rgb(220, 220, 227);
-                align-content: space-around;
-                align-items: center;
-                text-align: center;
-                line-height: 50px;
 
-            }
+        .right {
+            padding: 1px;
+            color: rgb(220, 220, 227);
+            align-content: space-around;
+            align-items: center;
+            text-align: center;
+            line-height: 50px;
 
-            .left {
-                font-size: 1.8rem;
-                padding: 22px;
-                color: rgb(117, 239, 250);
-                align-content: space-around;
-                align-items: center;
-                text-align: center;
-                text-decoration: none;
-            }
-           
+        }
 
-            main ul li a {
-                color: white;
-                text-decoration: none;
+        .left {
+            font-size: 1.8rem;
+            padding: 22px;
+            color: rgb(117, 239, 250);
+            align-content: space-around;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+        }
 
-            }
-            main ul li {
-                list-style: none;
-                margin: 0 23px;
-                text-align: center;
-            }
 
-            main ul li a:hover {
-                color: rgb(166, 220, 232);
-                font-size: 1.02rem;
-            }
-          
-           
+        main ul li a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        main ul li {
+            list-style: none;
+            margin: 0 23px;
+            text-align: center;
+        }
+
+        main ul li a:hover {
+            color: rgb(166, 220, 232);
+            font-size: 1.02rem;
+        }
     </style>
 </head>
 
@@ -75,17 +74,31 @@
             <div class="left">Certificate's</div>
             <div class="right">
                 <ul>
-                    <li><a href="Coursera 3KHPAUW8QGJW.pdf" >Google Foundations of
-                            Cybersecurity</a></li> 
+                    <li><a href="Coursera Google Cybersecurity.pdf">Google Cybersecurity Certificate</a></li>
+                    <li><a href="Coursera 3KHPAUW8QGJW.pdf">Google Foundations of
+                            Cybersecurity</a></li>
                     <li><a href="eCertificate.pdf" style=>Oracal certified Foundations associates</a></li>
-                    <li><a href="CISSP certified information system security professional.pdf" style=>CISSP</a></li>
-                    <li><a href="Introduction_to_Cybersecurity_Badge20230321-28-15ayrgd.pdf" style=>CISCO Introduction to CyberSecurity</a></li>
+                    <li><a href="CISSP certified information system security professional.pdf" style=>CISSP (Certified
+                            Information System Security Professional)</a></li>
+                    <li><a href="Introduction_to_Cybersecurity_Badge20230321-28-15ayrgd.pdf" style=>CISCO Introduction
+                            to CyberSecurity</a></li>
                     <li><a href="Network_Defense_Badge20230322-28-1m98nln.pdf" style=>CISCO Network Defense</a></li>
                     <li><a href="STH Red Team Training Certificate - Somesh Gajanan Dhule.pdf" style=> Red Team Training
                             Certificates</a></li>
                     <li><a href="UC-c4962b0a-10ff-4f61-8305-3d25fe15fa85.jpg" style=>Udemy Learn Ethical Hacking From
                             Scretch</a></li>
+                    <li><a href="Ethical Haking Essencial.pdf" style=> Ec-Council Ethical Haking Essencial </a></li>
+
+                    <li><a href="Introduction to Dark Web,Antonomy,Cryptocurrency.pdf" style=> Ec-Council Introduction
+                            to Dark Web,Antonomy,Cryptocurrency </a></li>
                     <li><a href="SSO-DigitalCertificate.pdf" style=> SSO-DigitalCertificate</a></li>
+                    <li><a href="Digital Adda 1.pdf" style=> Certification Program in Ethical Hacking offered by The
+                            Digital Adda</a></li>
+                    <li><a href="Digtal Adda 2.pdf" style=> Certification Program in Computer Hardware & networking
+                            offered by The Digital Adda</a></li>
+
+
+
                 </ul>
             </div>
         </main>
